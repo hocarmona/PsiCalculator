@@ -10,12 +10,13 @@
 		3E399CC44F1981B9C6A6220A /* Pods_PsiCalculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7920A50F5C2F823A9B03AB9B /* Pods_PsiCalculator.framework */; };
 		6A2905D42813B02800480436 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2905D32813B02800480436 /* AppDelegate.swift */; };
 		6A2905D62813B02800480436 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2905D52813B02800480436 /* SceneDelegate.swift */; };
-		6A2905D82813B02800480436 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2905D72813B02800480436 /* ViewController.swift */; };
 		6A2905DB2813B02800480436 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A2905D92813B02800480436 /* Main.storyboard */; };
 		6A2905DD2813B02B00480436 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A2905DC2813B02B00480436 /* Assets.xcassets */; };
 		6A2905E02813B02B00480436 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A2905DE2813B02B00480436 /* LaunchScreen.storyboard */; };
 		6AB261DE283D660F00278C4C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB261DD283D660F00278C4C /* LoginViewController.swift */; };
 		6AB261E0283EDD4300278C4C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6AB261DF283EDD4300278C4C /* GoogleService-Info.plist */; };
+		6ABF1C59284AC83300291424 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6ABF1C58284AC83300291424 /* IQKeyboardManagerSwift */; };
+		6AFE15D2286CF72200B220EB /* CylinderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFE15D1286CF72200B220EB /* CylinderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,13 +24,13 @@
 		6A2905D02813B02800480436 /* PsiCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PsiCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A2905D32813B02800480436 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A2905D52813B02800480436 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6A2905D72813B02800480436 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6A2905DA2813B02800480436 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6A2905DC2813B02B00480436 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A2905DF2813B02B00480436 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A2905E12813B02B00480436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AB261DD283D660F00278C4C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		6AB261DF283EDD4300278C4C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6AFE15D1286CF72200B220EB /* CylinderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CylinderViewController.swift; sourceTree = "<group>"; };
 		7920A50F5C2F823A9B03AB9B /* Pods_PsiCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PsiCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85BEA64AAED0B7BD03060CB6 /* Pods-PsiCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PsiCalculator.debug.xcconfig"; path = "Target Support Files/Pods-PsiCalculator/Pods-PsiCalculator.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -40,6 +41,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E399CC44F1981B9C6A6220A /* Pods_PsiCalculator.framework in Frameworks */,
+				6ABF1C59284AC83300291424 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +54,6 @@
 				85BEA64AAED0B7BD03060CB6 /* Pods-PsiCalculator.debug.xcconfig */,
 				4AA016BB0D6DF0FDD010CFCA /* Pods-PsiCalculator.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -79,9 +80,9 @@
 			children = (
 				6A2905D32813B02800480436 /* AppDelegate.swift */,
 				6A2905D52813B02800480436 /* SceneDelegate.swift */,
-				6A2905D72813B02800480436 /* ViewController.swift */,
 				6A2905D92813B02800480436 /* Main.storyboard */,
 				6AB261DD283D660F00278C4C /* LoginViewController.swift */,
+				6AFE15D1286CF72200B220EB /* CylinderViewController.swift */,
 				6A2905DC2813B02B00480436 /* Assets.xcassets */,
 				6A2905DE2813B02B00480436 /* LaunchScreen.storyboard */,
 				6A2905E12813B02B00480436 /* Info.plist */,
@@ -116,6 +117,9 @@
 			dependencies = (
 			);
 			name = PsiCalculator;
+			packageProductDependencies = (
+				6ABF1C58284AC83300291424 /* IQKeyboardManagerSwift */,
+			);
 			productName = PsiCalculator;
 			productReference = 6A2905D02813B02800480436 /* PsiCalculator.app */;
 			productType = "com.apple.product-type.application";
@@ -144,6 +148,10 @@
 				Base,
 			);
 			mainGroup = 6A2905C72813B02800480436;
+			packageReferences = (
+				6ABF1C56284AC25800291424 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				6ABF1C57284AC83300291424 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = 6A2905D12813B02800480436 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -214,8 +222,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AFE15D2286CF72200B220EB /* CylinderViewController.swift in Sources */,
 				6AB261DE283D660F00278C4C /* LoginViewController.swift in Sources */,
-				6A2905D82813B02800480436 /* ViewController.swift in Sources */,
 				6A2905D42813B02800480436 /* AppDelegate.swift in Sources */,
 				6A2905D62813B02800480436 /* SceneDelegate.swift in Sources */,
 			);
@@ -437,6 +445,33 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6ABF1C56284AC25800291424 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.9;
+			};
+		};
+		6ABF1C57284AC83300291424 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.9;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6ABF1C58284AC83300291424 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6ABF1C56284AC25800291424 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6A2905C82813B02800480436 /* Project object */;
 }
